@@ -20,6 +20,7 @@ body {
   text-align: center;
 }
 textarea {
+    text-align: center;
   width: 80%;
   height: 10vh;
   display: block;
@@ -29,6 +30,7 @@ textarea {
   margin-left: auto;
   border: 2px solid black;
   border-radius: 50px;
+  font-size: 2em;
 
 }
 button {
@@ -47,6 +49,7 @@ button {
   padding: 1rem;
   margin-right: auto;
   margin-left: auto;
+  font-size:3em
 }
 
 .footer-bar {
@@ -55,7 +58,6 @@ button {
   text-align: center;
   position: fixed;
   bottom: 0;
-
   width: 100%;
 }
 
