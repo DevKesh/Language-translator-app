@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+
+
+.nav-bar {
+  text-align: center;
+  color:rgb(0, 0, 0);
+  background-image: url('images/minion\ image.jpg');
+  -webkit-text-stroke: 0.01px black;
+  padding: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-color: yellow;
+  margin: 0%;
+  font-family: 'Supermercado One', cursive;
+}
+.translator {
+  text-align: center;
+}
+textarea {
+  width: 80%;
+  height: 10vh;
+  display: block;
+  margin: 1rem;
+  padding: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+  border: 2px solid black;
+  border-radius: 50px;
+
+}
+button {
+  margin: 0.5rem;
+  border-radius: 25px;
+}
+
+#output {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 50px;
+  width: 80%;
+  height: 10vh;
+  display: block;
+  margin: 1rem;
+  padding: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer-bar {
+  color: yellow;
+  background-color: #285ba9;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+
+  width: 100%;
+}
+
+
+
+#button-translate {
+  background-color: black;
+  color: yellow;
+  font-family: 'Supermercado One', cursive;
+  font-size: larger;
+  border-radius: 50px;
+}
+
+#button-translate:hover{
+    background-color: #285ba9;
+    color:yellow;
+}
+
+h2 {
+  margin: 0px 0px;
+}
+
+.about {
+  color: yellow;
+  font-size: 4rem;
+  -webkit-text-stroke: 0.5px black;
+  margin: 1rem 0rem;
+}
+.normal-text {
+  font-size: 1.5rem;
+}
+.about-text{
+    font-size: 1rem;
+}
