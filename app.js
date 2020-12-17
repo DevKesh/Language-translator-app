@@ -10,7 +10,7 @@ function getTranslationURL(text) {
 
 function errorHandler(error) {
     console.log("error occured", error);
-    alert("The Server Is Down!! Kindly Come Back After Some Time!!")
+    alert("Sorry,The server Is Down!! Kindly Come Back After Some Time!!!")
 }
 
 function clickHandler() {
