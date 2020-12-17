@@ -6,13 +6,13 @@
   color:rgb(0, 0, 0);
   background-image: url('images/minion\ image.jpg');
   -webkit-text-stroke: 0.01px black;
-  padding: 4rem;
+  padding: 3rem;
   display: flex;
   justify-content: center;
 }
 
 body {
-  background-color: yellow;
+  background-color: rgba(246, 224, 23, 0.972);
   margin: 0%;
   font-family: 'Supermercado One', cursive;
 }
@@ -20,17 +20,20 @@ body {
   text-align: center;
 }
 textarea {
-    text-align: center;
-  width: 80%;
+  text-align: center;
+  width: 60%;
   height: 10vh;
   display: block;
   margin: 1rem;
-  padding: 1rem;
+  padding: 2rem;
+  margin-top: 2rem;
   margin-right: auto;
   margin-left: auto;
-  border: 2px solid black;
+  border: 5px solid #285ba9;
   border-radius: 50px;
-  font-size: 2em;
+  font-size: 1rem;
+  font-family: 'Supermercado One', cursive;
+  
 
 }
 button {
@@ -40,55 +43,64 @@ button {
 
 #output {
   background-color: white;
-  border: 2px solid black;
+  border: 5px solid #285ba9;
   border-radius: 50px;
-  width: 80%;
+  width: 60%;
   height: 10vh;
   display: block;
   margin: 1rem;
-  padding: 1rem;
+  padding: 2rem;
   margin-right: auto;
   margin-left: auto;
-  font-size:3em
+  font-size:1rem;
 }
 
 .footer-bar {
   color: yellow;
   background-color: #285ba9;
   text-align: center;
+  justify-content: center;
   position: fixed;
   bottom: 0;
   width: 100%;
-  padding: 0rem;
+  padding: .2rem;
 }
 
+.button-size{
+  border-radius: 25px;
+}
 
 
 #button-translate {
-  background-color: black;
-  color: yellow;
+  background-color:  #285ba9;
+  color: rgba(246, 224, 23, 0.972);
   font-family: 'Supermercado One', cursive;
-  font-size: larger;
-  border-radius: 50px;
+  font-size: 1rem;
+  cursor: pointer;
 }
+
 
 #button-translate:hover{
     background-color: #285ba9;
-    color:yellow;
+    color:rgba(12, 12, 12, 0.972);
+}
+
+#button-translate:active{
+  transform: translate(0, 0.3rem);
+  box-shadow: 0 0.1rem #285ba9;
 }
 
 h2 {
   margin: 0px 0px;
+  
 }
 
-.about {
-  color: yellow;
-  -webkit-text-stroke: 0.5px black;
-  margin: 1rem 0rem;
-}
+
 .normal-text {
-    font-size: large;
+    font-size: 1.2rem;
+    color: #285ba9;
+    font-weight: bold;
 }
 .about-text{
-    font-size: large;
+    font-size: 1rem;
 }
